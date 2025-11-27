@@ -60,7 +60,7 @@ salvar_no_disco(Caminho) :-
                     format(Stream, '% ~w:~n', [Nome]),
                     
                     % Escreve apenas os tópicos que pertencem a esta disciplina E que o aluno sabe
-                    forall((topico(D, Topico), sabe(Topico)), (
+                    forall((topico(D, Topico), once(sabe(Topico))), (
                         format(Stream, 'sabe(~w).~n', [Topico])
                     )),
                     nl(Stream) % Linha em branco após cada disciplina
