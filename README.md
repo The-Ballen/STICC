@@ -229,7 +229,7 @@ Esta diretiva avisa ao Intepretador que fatos `sabe(...)` serão criado e destru
 * **`retract(sabe(calculo))`:** Remove esse fato da memória.
 * **`retractall(sabe(_))`:** Apaga todos os fatos `sabe(...)` (conhecimento) da memória (usado ao carregar um novo perfil, para limpar o conhecimento do perfil anterior).
 
-## Módulo 6. Fluxo de Controle e Interface (CLI)
+### Módulo 6. Fluxo de Controle e Interface (CLI)
 
 **Onde estudar:** `src/main.pl` e `src/handlers.pl`
 
@@ -265,7 +265,7 @@ Se você digitar `0`:
 
 -----
 
-## Módulo 7. Sistema de Persistência de Dados (Personas)
+### Módulo 7. Sistema de Persistência de Dados (Personas)
 
 **Onde estudar:** `src/persistence.pl`
 
@@ -303,7 +303,7 @@ O `consult` simplesmente lê esse arquivo e executa ele como se fosse parte do c
 
 -----
 
-## Módulo 8. Guia de Expansão
+## 5. Guia de Expansão
 
 Para adicionar novas funcionalidades ao projeto, basta seguir o fluxo de dados:
 
